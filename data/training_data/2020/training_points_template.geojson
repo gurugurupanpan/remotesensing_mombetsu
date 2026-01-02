@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "name": "training_data_2020",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 1,
+        "class_name": "grassland",
+        "description": "牧草地サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.5, 44.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 2,
+        "class_name": "corn_field",
+        "description": "飼料用トウモロコシ畑サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.7, 44.1]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 3,
+        "class_name": "other_cropland",
+        "description": "畑作農地（小麦・てんさい等）サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.6, 44.15]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 4,
+        "class_name": "forest",
+        "description": "森林サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.4, 44.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 5,
+        "class_name": "urban",
+        "description": "市街地サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.35, 44.35]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 6,
+        "class_name": "water",
+        "description": "水域サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.9, 44.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "class": 7,
+        "class_name": "bare_land",
+        "description": "裸地・その他サンプル1",
+        "date_collected": "2020-08-01",
+        "confidence": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.8, 44.05]
+      }
+    }
+  ]
+}

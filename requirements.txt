@@ -1,0 +1,20 @@
+# Google Earth Engine Python API
+earthengine-api>=0.1.370
+
+# 地理空間データ処理
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+pyproj>=3.6.0
+
+# データ処理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 可視化（オプション）
+matplotlib>=3.7.0
+folium>=0.14.0
+
+# Jupyter Notebook（オプション）
+jupyter>=1.0.0
+ipykernel>=6.0.0
